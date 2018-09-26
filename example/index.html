@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter names in the fields, then click "Submit" to submit the form:</p>
+<!-- 
+<input type="text" maxlength="512" id="searchTxt" class="searchField"/>
+<input type="button" value="Get Value" onclick="alert(searchTxt.value)"> -->
+
+
+<form id="theForm" action="index.js" method="post">
+  First name: <input id="firstName" type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="makePdf()" id="theSubmitter" value="Make the Pdf">
+  <button>Submit</button>
+</form>
+
+<script src="./index.js"></script>
+
+
+</body>
+</html>
